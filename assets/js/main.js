@@ -18,10 +18,10 @@ btnGenera.addEventListener("click", function () {
 
   if (fascia == "minorenne") {
     offer = "Sconto Minorenne";
-    ticketPrice = (ticketPrice * 0.80);
+    ticketPrice = ticketPrice * 0.8;
   } else if (fascia == "over65") {
     offer = "Sconto Silver";
-    ticketPrice = (ticketPrice * 0.60);
+    ticketPrice = ticketPrice * 0.6;
   }
 
   document.getElementById("nameDetail").innerHTML = fullName;
@@ -30,11 +30,11 @@ btnGenera.addEventListener("click", function () {
     Math.floor(Math.random() * 9) + 1;
   document.getElementById("codiceDetail").innerHTML =
     Math.floor(Math.random() * 9999) + 90000;
-  document.getElementById("costoDetail").innerHTML = ticketPrice.toFixed(2) + "€";
+  document.getElementById("costoDetail").innerHTML =
+    ticketPrice.toFixed(2) + "€";
 });
 
 btnAnnulla.addEventListener("click", function () {
   //Annulla operazione
-  document.getElementById("full-name").innerHTML = ("");
-
+  document.getElementById("full-name").innerHTML = "";
 });

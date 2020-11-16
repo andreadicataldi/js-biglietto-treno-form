@@ -23,7 +23,6 @@ body {
 }
 
 h2 {
-  
   color: white;
   margin-top: 30px;
 }
@@ -33,7 +32,8 @@ label {
   font-weight: 600;
 }
 
-input, select {
+input,
+select {
   border-color: rgb(199, 21, 89);
   border-radius: 5px;
   padding: 5px;
@@ -59,8 +59,8 @@ button {
 }
 
 .biglietto > h3 {
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .calcola {
@@ -86,13 +86,13 @@ button {
 
 .biglietto {
   width: 80%;
-  background-color: white;;
+  background-color: white;
 }
 
 .dettaglio {
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 200px;
 }
 
