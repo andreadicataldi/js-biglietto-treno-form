@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(199, 21, 89);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrapper {
+  flex-flow: column;
+  align-items: center;
+}
+
+h2 {
+  
+  color: white;
+  margin-top: 30px;
+}
+
+label {
+  color: rgb(199, 21, 89);
+}
+
+input, select {
+  border-color: rgb(199, 21, 89);
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.wrapper > h2:first-child {
+  margin-bottom: 30px;
+}
+
+.wrapper > h2:not(first-child) {
+  margin-bottom: 5px;
+}
+
+.biglietto > h3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.calcola {
+  width: 80%;
+  background-color: white;
+  flex-flow: column;
+  justify-content: space-around;
+  box-shadow: 2px 2px 2px black;
+}
+
+.row-1,
+.row-2 {
+  justify-content: center;
+}
+
+.name,
+.distance,
+.age {
+  flex-flow: column;
+  align-items: center;
+}
+
+.biglietto {
+  width: 80%;
+  background-color: white;
+}
+
+.dettaglio {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.dettaglio-left {
+  width: 30%;
+  background-color: grey;
+}
+
+.dettaglio-right {
+  width: 70%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}

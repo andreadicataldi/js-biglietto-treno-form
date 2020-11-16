@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper d-flex">
+      <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
+      <div class="calcola d-flex rounded">
+        <div class="row-1 d-flex">
+          <div class="name d-flex">
+            <label for="name">Nome Cognome</label>
+            <input type="text" name="name" placeholder="Nome" />
+          </div>
+          <div class="distance d-flex">
+            <label for="distance">Km da percorrere</label>
+            <input type="number" name="distance" />
+          </div>
+          <div class="age d-flex">
+            <label for="age">Fascia d'età</label>
+            <select name="age" id="age">
+              <option value="minorenne">Minorenne</option>
+              <option value="maggiorenne">Maggiorenne</option>
+              <option value="over-65">Over 65</option>
+            </select>
+          </div>
+        </div>
+        <div class="row-2 d-flex">
+          <button>Genera</button>
+          <button>Annulla</button>
+        </div>
+      </div>
+      <h2>IL TUO BIGLIETTO</h2>
+      <div class="biglietto">
+        <h3>DETTAGLIO PASSEGGERI</h3>
+        <div class="dettaglio d-flex">
+          <div class="dettaglio-left">
+            <h3>NOME PASSEGGERO</h3>
+            <p>Pippo</p>
+          </div>
+          <div class="dettaglio-right">
+            <table>
+              <thead>
+                <tr>
+                  <th>Offerta</th>
+                  <th>Carrozza</th>
+                  <th>Codice CP</th>
+                  <th>Costo biglietto</th>
+                </tr>
+              </thead>
+              <tr>
+                <td>Sconto Minorenne</td>
+                <td>7</td>
+                <td>97928</td>
+                <td>3.36€</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
