@@ -15,24 +15,24 @@
         <div class="row-1 d-flex">
           <div class="name d-flex">
             <label for="name">Nome Cognome</label>
-            <input type="text" name="name" placeholder="Nome" />
+            <input type="text" name="name" placeholder="Nome" id="full-name" />
           </div>
           <div class="distance d-flex">
             <label for="distance">Km da percorrere</label>
-            <input type="number" name="distance" />
+            <input type="number" name="distance" id="km" />
           </div>
           <div class="age d-flex">
             <label for="age">Fascia d'età</label>
-            <select name="age" id="age">
+            <select name="age" id="fascia">
               <option value="minorenne">Minorenne</option>
               <option value="maggiorenne">Maggiorenne</option>
-              <option value="over-65">Over 65</option>
+              <option value="over65">Over 65</option>
             </select>
           </div>
         </div>
         <div class="row-2 d-flex">
-          <button>Genera</button>
-          <button>Annulla</button>
+          <button id="btn-genera">Genera</button>
+          <button id="btn-annulla">Annulla</button>
         </div>
       </div>
       <h2>IL TUO BIGLIETTO</h2>
@@ -41,7 +41,7 @@
         <div class="dettaglio d-flex">
           <div class="dettaglio-left">
             <h3>NOME PASSEGGERO</h3>
-            <p>Pippo</p>
+            <p id="nameDetail"></p>
           </div>
           <div class="dettaglio-right">
             <table>
@@ -54,10 +54,10 @@
                 </tr>
               </thead>
               <tr>
-                <td>Sconto Minorenne</td>
-                <td>7</td>
-                <td>97928</td>
-                <td>3.36€</td>
+                <td id="scontoDetail"></td>
+                <td id="carrozzaDetail"></td>
+                <td id="codiceDetail"></td>
+                <td id="costoDetail"></td>
               </tr>
             </table>
           </div>
