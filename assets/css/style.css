@@ -84,7 +84,8 @@ button {
   align-items: center;
 }
 
-#biglietto, #biglietto-header {
+#biglietto,
+#biglietto-header {
   display: none;
 }
 
