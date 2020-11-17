@@ -3,6 +3,7 @@ var btnAnnulla = document.getElementById("btn-annulla");
 
 btnGenera.addEventListener("click", function () {
   document.getElementById("biglietto").style.display = "block";
+  document.getElementById("biglietto-header").style.display = "block";
   var offer = "Tariffa Standard";
   // Selezionare valore input
   var fullNameInput = document.getElementById("full-name");
@@ -38,6 +39,7 @@ btnGenera.addEventListener("click", function () {
 btnAnnulla.addEventListener("click", function () {
   //Annulla operazione
   document.getElementById("biglietto").style.display = "none";
+  document.getElementById("biglietto-header").style.display = "none";
   document.getElementById("full-name").value = "";
   document.getElementById("km").value = "";
   document.getElementById("fascia").value = "";

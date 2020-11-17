@@ -84,6 +84,10 @@ button {
   align-items: center;
 }
 
+#biglietto, #biglietto-header {
+  display: none;
+}
+
 .biglietto {
   width: 80%;
   background-color: white;
